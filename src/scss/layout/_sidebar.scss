@@ -1,0 +1,276 @@
+.sidebar {
+  list-style: none;
+  width: 538px;
+  height: 100%;
+  &__menu {
+    position: fixed;
+    background: $magenta;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    display: grid;
+    grid-template-rows: 120px;
+    align-items: center;
+    z-index: 5;
+    &__content {
+      position: fixed;
+      background: $magenta;
+      left: -418px;
+      top: 0;
+      margin-left: 120px;
+      padding-left: 30px;
+      display: grid;
+      grid-template-rows: 120px 40px 460px 1px 1px 200px 40px 40px 80px 1px;
+      align-content: space-between;
+      width: 418px;
+      height: 100%;
+      z-index: -1;
+      transition: left 0.6s ease-in-out;
+
+      a:-webkit-any-link {
+        color: $white;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a:-webkit-any-link:hover {
+        color: $gray;
+      }
+    }
+    &__content--expanded {
+      left: 0;
+    }
+  }
+}
+
+.submenu {
+  &__content {
+    position: fixed;
+    background: $magenta-dark;
+    top: 0;
+    left: 118px;
+    bottom: 0;
+    width: 74px;
+    display: grid;
+    grid-template-rows: 230px 30px;
+    grid-template-columns: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-left: 1px solid #707070;
+    opacity: 1;
+    z-index: 4;
+    transition: left 0.6s ease-in-out;
+    &__services {
+      position: fixed;
+      background-color: $magenta-dark;
+      display: grid;
+      grid-template-rows: 120px 100px 450px 185px;
+      grid-template-columns: 312px;
+      align-content: space-between;
+      left: -900px;
+      padding-left: 30px;
+      border-left: none;
+      width: 386px;
+      height: 100%;
+      transition: left 0.6s ease-in-out;
+      z-index: -1;
+
+      a:-webkit-any-link {
+        color: $white-darker;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a:-webkit-any-link:hover {
+        color: $gray;
+      }
+    }
+    &__commodities {
+      position: fixed;
+      background-color: $magenta-dark;
+      display: grid;
+      grid-template-rows: 100px 250px 250px 250px 250px 50px;
+      grid-template-columns: 500px;
+      align-content: space-between;
+      left: -900px;
+      padding-left: 30px;
+      border-left: none;
+      width: 500px;
+      height: 100%;
+      transition: left 0.6s ease-in-out;
+      z-index: -1;
+
+      a:-webkit-any-link {
+        color: $white-darker;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      a:-webkit-any-link:hover {
+        color: $gray;
+      }
+    }
+    &__careers{
+      position: fixed;
+      background-color: $magenta-dark;
+      display: grid;
+      grid-template-rows: 120px 200px 180px 340px;
+      grid-template-columns: 312px;
+      align-content: space-between;
+      left: -900px;
+      padding-left: 30px;
+      border-left: none;
+      width: 310px;
+      height: 100%;
+      transition: left 0.6s ease-in-out;
+      z-index: -1;
+    
+      a:-webkit-any-link {
+        color: $white-darker;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    
+      a:-webkit-any-link:hover {
+        color: $gray;
+      }
+    }
+
+    &__services--subExpanded {
+      left: 192px;
+    }
+  }
+  &__services--slide {
+    left: 538px;
+  }
+}
+
+// ---------------------------------------------------------------------------
+
+.side-bar--menu--services > img {
+  transform: rotate (270deg);
+}
+
+.sidebar-menu-slim-commodities > img {
+  transform: rotate (90deg);
+}
+
+.sidebar-menu-slim-commodities > img {
+  transform: rotate (90deg);
+}
+
+
+.logo {
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 25px;
+}
+
+.logo-big {
+  display: inline-block;
+  margin-top: 41px;
+  margin-left: -62px;
+  height: 80px;
+}
+
+.text {
+  transform: rotate(270deg);
+  text-align: center;
+  align-items: center;
+}
+
+.text-bold {
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.text-semibold {
+  color: white;
+  font-family: "Raleway";
+  font-size: 30px;
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+
+.text-semibold20 {
+  color: white;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+.text-semibold25 {
+  color: $white-darker;
+  font-family: "Raleway";
+  font-size: 25px;
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+
+.text-semibold24 {
+  color: $magenta;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 550;
+  letter-spacing: 2px;
+}
+
+.text-regular24 {
+  color: white;
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 400;
+
+  letter-spacing: 2px;
+}
+
+.underline {
+  border: none;
+  width: 250px;
+  border-bottom-color: $white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
+.social-icon {
+  color: $white;
+  display: inline-block;
+  height: 48px;
+  width: 60px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
+.social-icon > img {
+  margin: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+
+.justify {
+  display: grid;
+  justify-content: space-between;
+  // align-content: space-between;
+}
+.sidebar-menu-slim {
+  position: absolute;
+  background: $magenta;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 120px;
+  display: grid;
+  grid-template-rows: 120px;
+  align-items: center;
+}

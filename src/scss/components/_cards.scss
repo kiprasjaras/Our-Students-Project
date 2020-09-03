@@ -1,0 +1,45 @@
+// SIZES OF CARDS & PLACEMENT:
+// card-s - comodities
+// card-m - services, news, testimonials
+// card-l  drivers, administration
+// card-xl - join us
+
+%card{
+    background: $white;
+    opacity: 0.9;
+    box-sizing: border-box;
+    text-align: left;
+    align-content: center;
+  
+    }
+
+.card-s{
+    @extend %card;
+    width: 330px;
+    height: 299px;
+    padding: 63px 99px 79px 20px;
+
+}
+
+.card-m{
+    @extend %card;
+    // width: 680px;
+    // height: 427px;
+    padding: 5%;
+}
+   
+.card-l{
+    @extend %card;
+    width: 774px;
+    height: 523px;
+    padding: 5%;
+
+}
+
+.card-xl{
+    @extend %card;
+    width: 830px;
+    height: 332px;
+    padding: 5%;
+}
+  

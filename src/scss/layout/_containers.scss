@@ -1,0 +1,32 @@
+
+// puslapiuose, kur matosi tik pagrindinis sidebar'as
+.container {
+  position: absolute;
+  width: calc(100vw - #{$side-bar-main});
+  left: $side-bar-main;
+}
+.js-content{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+@for $i from 2 through 10 {
+  .js-content:nth-of-type(#{$i}){
+    left: calc(100% * #{$i} - 100%);
+  }
+}
+
+//puslapiuose, kur matosi suskleisti abu sidebar'ai
+.container-sub{
+  position: absolute;
+  width: calc(100vw - #{$side-bar-both});
+  left: $side-bar-both;
+}
+
+  // scroll to explore
+  .container__scroll{
+    position: absolute;
+    top: 5vh;
+    left: 75vw;
+    z-index: 1;
+  }

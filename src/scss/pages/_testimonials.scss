@@ -1,0 +1,58 @@
+.grid-testimonials{
+    display: grid;
+    grid-template-columns: 6.3vw 8.4vw 30.7vw 23.8vw 23vw 6.8vw;
+    grid-template-rows: 6.4vh 1.3vh 6.4vh 5.6vh 6vh 8.6vh 38.4vh 4.5vh 4.5vh 17.3vh;
+&__carousel{
+    grid-column: 3/4;
+    grid-row: 7/8;
+   }
+&__img{
+    align-self: stretch;
+    justify-self: stretch;
+    grid-column: 5/6; 
+    grid-row: 6/9;   
+    box-shadow: 40px 40px 0px $magenta;
+   
+}
+&__header{
+    grid-column: 3/4;
+    grid-row: 4/5
+}
+&__scroll{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    justify-self: end;;
+
+}
+
+
+}
+
+
+.carousel{
+    text-align: center;
+    background-color: $white;
+    opacity: 0.9;
+    align-content: center;
+    padding: 71px 68px 33px 68px;
+&__controls{
+        bottom: 0;
+}
+ 
+&__dot{
+      height: 10px;
+      width: 10px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      margin-top: 60px;
+}
+&__dot.is-selected{
+        background: grey;
+    
+  }
+  
+}
+
+
+

@@ -1,0 +1,19 @@
+navbar dropdown - google it. Kipras
+
+Formu validacija Edvinas
+
+Pasirinkti data + animacija, required fields Artūras
+
+Kontaktu forma - name length, email regex, number regex, required fields Edvinas
+
+freight locations - topacio miesto pasirinkimas validacija Edvinas
+
+drivers form - tel nr ir email validacija Edvinas
+
+administration form - taspats Edvinas
+
+services - sugeneruoti visa content Artūras
+
+commodities - sugeneruoti visa content Artūras
+
+testimonials - vaikscioti per skirtingus zmones (keiciasi content ir img)  Sandra

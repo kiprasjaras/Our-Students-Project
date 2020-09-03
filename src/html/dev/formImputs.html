@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <div class="formContainer h3-xs js-form-container">
+        <div class="formContainer__progress">
+            <span>Freight Details</span>
+            <span>Freight Locations</span>
+            <span>Other Details</span>
+            <span>Contact Details</span>
+        </div>
+        <div class="formContainer__inputs">
+            <div class="h3-s">Freight Details</div>
+            <label for="movement">Type of Movement</label>
+            <select name="movement" class="formContainer__input formContainer__input--select">
+                <option value="" disabled selected>Please select</option>
+                <option value="road">Road</option>
+                <option value="sea">Sea</option>
+                <option value="rail">Rail</option>
+                <option value="air">Air</option>
+            </select>
+            <div class="formContainer__error hide"></div>
+            <label for="description">Description of Freight (type, weight, dimentions)</label>
+            <input type="text" name="description" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="date">Date</label>
+            <input type="date" name="date" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <div class="formContainer__buttons">
+                <button class="btn btn--forms btn--outline form-btn-text right">Next</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="formContainer h3-xs">
+        <div class="formContainer__progress">
+            <span>Freight Details</span>
+            <span>Freight Locations</span>
+            <span>Other Details</span>
+            <span>Contact Details</span>
+        </div>
+        <div class="formContainer__inputs">
+            <div class="h3-s">Freight Locations</div>
+            <label for="origins">Origins</label>
+            <select name="origins" class="formContainer__input formContainer__input--select">
+                <option value="" disabled selected>Please select</option>
+                <option value="klaipeda">Klaipeda</option>
+                <option value="sea">Ventspils</option>
+                <option value="rail">Riga</option>
+                <option value="tallinn">Tallinn</option>
+                <option value="saint-petersburg">Saint-Petersburg</option>
+                <option value="stockholm">Stockholm</option>
+                <option value="lubeck">Lübeck</option>
+                <option value="gdansk">Gdańsk</option>
+                <option value="helsinki">Helsinki</option>
+            </select>
+            <div class="formContainer__error hide"></div>
+            <label for="destination">Destination</label>
+            <select name="destination" class="formContainer__input formContainer__input--select">
+                <option value="" disabled selected>Please select</option>
+                <option value="klaipeda">Klaipeda</option>
+                <option value="sea">Ventspils</option>
+                <option value="rail">Riga</option>
+                <option value="tallinn">Tallinn</option>
+                <option value="saint-petersburg">Saint-Petersburg</option>
+                <option value="stockholm">Stockholm</option>
+                <option value="lubeck">Lübeck</option>
+                <option value="gdansk">Gdańsk</option>
+                <option value="helsinki">Helsinki</option>
+            </select>
+            <div class="formContainer__error hide"></div>
+            
+            <div class="formContainer__buttons">
+                <button class="btn btn--forms btn--outline form-btn-text left">Back</button>
+                <button class="btn btn--forms btn--outline form-btn-text right">Next</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="formContainer h3-xs">
+        <div class="formContainer__progress">
+            <span>Freight Details</span>
+            <span>Freight Locations</span>
+            <span>Other Details</span>
+            <span>Contact Details</span>
+        </div>
+        <div class="formContainer__inputs">
+            <div class="h3-s">Other Details</div>
+            <label for="goods">Goods Reference Number</label>
+            <input type="text" name="goods" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="order">Order reference number</label>
+            <input type="text" name="order" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="comment">Comments or Instructions</label>
+            <textarea name="comment" class="formContainer__input-h100"></textarea>
+            <div class="formContainer__buttons">
+                <button class="btn btn--forms btn--outline form-btn-text left">Back</button>
+                <button class="btn btn--forms btn--outline form-btn-text right">Next</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="formContainer h3-xs">
+        <div class="formContainer__progress">
+            <span>Freight Details</span>
+            <span>Freight Locations</span>
+            <span>Other Details</span>
+            <span>Contact Details</span>
+        </div>
+        <div class="formContainer__inputs">
+            <div class="h3-s">Contact Details</div>
+            <label for="name">Name*</label>
+            <input type="text" name="name" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="company">Company</label>
+            <input type="text" name="company" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="email">Email*</label>
+            <input type="text" name="email" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <label for="number">Contact Number*</label>
+            <input type="text" name="number" class="formContainer__input">
+            <div class="formContainer__error hide"></div>
+            <div class="formContainer__buttons">
+                <button class="btn btn--forms btn--outline form-btn-text left">Back</button>
+                <button class="btn btn--forms btn--outline form-btn-text right">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

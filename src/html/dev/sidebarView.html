@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="sidebar">
+
+    <div class="sidebar__menu">
+      <div class="logo"><img src="../../assets/LH.png"></div>
+      <span class="text text-bold">MENU</span>
+      <div class="sidebar__menu__content">
+        <span><img src="../../assets/LHbig.png" class="logobig"></span>
+        <div class="text-semibold grid__row-3-4 justify">
+          <li><a :click="page(/about)" class="">About Us</a></li>
+          <li><a :click="page(/services)" class="">Services</a></li>
+          <li><a :click="page(/commodities)" class="">Commodities</a></li>
+          <li><a :click="page(/news)" class="">News</a></li>
+          <li><a :click="page(/careers)" class="">Careers</a></li>
+        </div>
+        <div class="underline grid__row-4-5"></div>
+        <div class="text-semibold20 grid__row-6-7 justify">
+          <li><a href="#" class="">Fill Order Form</a></li>
+          <li><a href="#" class="">Track a Shipment</a></li>
+          <li><a href="#" class="">Contacts</a></li>
+        </div>
+        <div class="grid__row-7-8">
+          <a href="https://instagram.com" class="social-icon" target="blank">
+            <i class="fab fa-instagram"></i>
+            <img src="../../assets/icons/linkedin.svg" alt="instagram icon">
+          </a>
+          <a href="https://facebook.com" class="social-icon" target="blank">
+            <i class="fab fa-facebook-f"></i>
+            <img src="../../assets/icons/facebook.svg" alt="facebook icon">
+          </a>
+          <a href="https://youtube.com" class="social-icon" target="blank">
+            <i class="fab fa-youtube"></i>
+            <img src="../../assets/icons/youtube.svg" alt="youtube icon">
+          </a>
+        </div>
+        <div class="text-regular24 grid__row-8-9">EN | LT</div>
+        <div class="text-semibold20 grid__row-9-10 justify">
+          <div class="">Conditions & Disclaimer</div>
+          <div class="legal">&copy; 2019 Logistics Hub</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES  -->
+
+    <!-- <div class="submenu">
+      <div class="submenu__content">
+        <span class="text text-bold grid__row-2-4">SERVICES</span>
+        <img src="../../assets/icons/left-arrow-chevron.svg">
+        <div class="submenu__content__services submenu__content-all text-semibold25">
+          <div class=" grid__row-3-4 justify">
+            <li><a :click="page(/about)" class="">Road</a></li>
+            <li><a :click="page(/about)" class="">Sea</a></li>
+            <li><a :click="page(/about)" class="">Air</a></li>
+            <li><a :click="page(/about)" class="">Rail</a></li>
+            <li><a :click="page(/about)" class="">Warehouse Logistics</a></li>
+            <li><a :click="page(/about)" class="">Full load</a></li>
+            <li><a :click="page(/about)" class="">Partial load</a></li>
+            <li><a :click="page(/about)" class="">Customs Procedures</a></li>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- COMMODITIES  -->
+    <!-- <div class="submenu">
+  <div class="submenu__content">
+    <div class="text text-bold grid__row-2-3">COMMODITIES</div>
+    <img src="../../assets/icons/left-arrow-chevron.svg">
+    <div class="submenu__content__commodities submenu__content-all">
+      <div class=" grid__row-2-3 justify">
+        <div class="text-semibold24 ">FAST MOVING CONSUMER GOOD</div>
+        <li><a :click="page(/about)" class="text-semibold25">Automotive</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Household & Decorations</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Flooring</a></li>
+        </div>
+        <div class=" grid__row-3-4 justify">
+          <div class="text-semibold24">FOREST</div>
+          <li><a :click="page(/about)" class="text-semibold25">Wood & Wood Pulp</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Paper</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Plants & Seedlings</a></li>
+        </div>
+        <div class=" grid__row-4-5 justify">
+          <div class="text-semibold24">INDUSTRIAL PRODUCTS</div>
+          <li><a :click="page(/about)" class="text-semibold25">Chemicals</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Ferro & Non-Ferro</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Glass</a></li>
+        </div>
+        <div class=" grid__row-5-6 justify">
+          <div class="text-semibold24">AGRICULTURAL PRODUCTS</div>
+          <li><a :click="page(/about)" class="text-semibold25">Food</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Minerals</a></li>
+          <li><a :click="page(/about)" class="text-semibold25">Fertilisers</a></li>
+        </div>
+      </div>
+    </div> -->
+    <!-- CAREERS -->
+    <div class="submenu">
+  <div class="submenu__content">
+    <span class="text text-bold grid__row-2-3" :target="subPageName">CAREERS</span>
+    <img src="../../assets/icons/left-arrow-chevron.svg">
+    <div class="submenu__content__careers submenu__content-all text-semibold25">
+      <div class=" grid__row-3-4 justify">
+          <li><a :click="page(/about)" class="">Drivers</a></li>
+          <li><a :click="page(/about)" class="">Administration</a></li>
+          <li><a :click="page(/about)" class="">All vacancies</a></li>
+      </div>
+  </div>
+  </div>
+</div>
+    <!-- ABOUT US -->
+<!-- <div class="submenu">
+  <div class="submenu__content">
+    <span class="text text-bold grid__row-2-3">ABOUT US</span>
+  </div>
+</div> -->
+
+
+
+
+  </div>
+</body>
+
+</html>

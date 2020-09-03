@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Raleway';
+    src:  url("../assets/fonts/Raleway-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    
+    font-family: 'Raleway';
+    src: url("../assets/fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../assets/fonts/Raleway-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Raleway';
+    src:  url("../assets/fonts/Raleway-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("../assets/fonts/Raleway-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+html{
+    font-family: 'Raleway';
+
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.h1-l{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: $magenta;
+  
+}
+
+.h1-m{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: $magenta;
+    
+}
+
+.h1-s{
+   font-weight: 700;
+   font-size: 16px;
+   letter-spacing: 1.6px;
+   color: $magenta;
+}
+
+.h2-s{
+    font-weight: 600;
+    font-size: 54px;
+    letter-spacing: 0;
+    color: $magenta;
+}
+
+.h2-m{
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: 0px;
+    color: $magenta;
+}
+
+.h3-xl{
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 3.2px;
+    color: $magenta;
+    &--icon{
+        color: $white;
+    }
+}
+
+.h3-l{
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 2.6px;
+    color: $white;
+    color: $magenta;
+}
+
+.h3-m{
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: $magenta;
+}
+
+.h3-s{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: $magenta;
+}
+
+.h3-xs{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    color: $magenta;
+}
+
+
+// p-light used in 'Testimonials' page
+// p-regular-s used in 'Our News' and 'Comodities' pages
+// p-regular-m used in 'Drivers', 'Services' and 'Administration' pages
+// p-regular-md used in "Services" pages card text
+// p-regular-l used in 'Join Us' page
+// p-medium used in 'Home' page
+
+.p-light{
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 1.8px;
+    color: $magenta;
+}
+
+
+.p-regular-s{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    color: $magenta;
+
+}
+
+.p-regular-m{
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0;
+    color: $magenta;
+}
+
+.p-regular-md{
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: 0;
+    color: $magenta-dark;
+}
+
+.p-regular-l{
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0;
+    color: $magenta;
+}
+
+.p-medium{
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 2.2px;
+    color: $gray;
+}
+
+// sidebar typography
+
+.h4-sidebar-xl{
+            font-weight: 700;
+            font-size: 30px;
+            color: $white;
+            letter-spacing: 3px;
+    }
+
+.h4-sidebar-l{
+    font-weight: 600;
+    font-size: 25px;
+    color: $white;
+    letter-spacing: 0;
+}
+
+.h4-sidebar-m-caps{
+    font-weight: 600;
+    font-size: 24px;
+    color: $magenta;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.h4-sidebar-s{
+    font-weight: 600;
+    font-size: 20px;
+    color: $white;
+    letter-spacing: 2;
+}
+.h4-sidebar-s-caps{
+    font-weight: 600;
+    font-size: 20px;
+    color: $white;
+    letter-spacing: 0;
+    text-transform: uppercase;
+}
+
+.scroll-text{
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: $gray;
+}
+.form-btn-text{
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: $magenta;
+}

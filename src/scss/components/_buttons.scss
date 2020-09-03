@@ -1,0 +1,50 @@
+.btn{
+   width: 204px;
+   height: 53px;
+   text-align: center;
+   background: $magenta;
+   border: 3px solid $magenta;
+   color: $white;
+   border-radius: 4px;
+   letter-spacing: 1.8px;
+   &:hover{
+      color: rgba($white, 0.9);
+   }
+}
+
+.btn.btn--outline{
+   background: rgba(255, 255, 255, 0);
+   color: $magenta;
+   &:hover{
+      background: $magenta;
+      color: rgba($white, 0.9);
+   }
+}
+
+.btn.btn--small{
+   width: 174px;
+   height: 41px;
+}
+
+.btn.btn--forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 32px;
+}
+
+.btn.btn--smaller{
+   width: 152px;
+   height: 35px;
+}
+
+.btn.btn--big{
+   width: 297px;
+   height: 103px;
+}
+
+.btn.btn--long{
+   width: 394px;
+   height: 53px;
+}

@@ -1,0 +1,56 @@
+@charset 'utf-8';
+@import 'shame';
+@import
+  'abstracts/functions',
+  'abstracts/variables',
+  'abstracts/mixins',
+  'abstracts/placeholders',
+  'abstracts/shared';
+
+  // @import
+  // 'vendors/bootstrap';
+
+  
+@import
+  'base/reset',
+  'base/typography';
+
+@import
+  'layout/backgrounds',  
+  'layout/containers',
+  'layout/dimensions',
+  'layout/navigation',
+  'layout/grid',
+  'layout/header',
+  'layout/footer',
+  'layout/sidebar',
+  'layout/forms',
+  'layout/spacing';
+
+@import
+  'components/buttons',
+  'components/carousel',
+  'components/cover',
+  'components/dropdown',
+  'components/cards',
+  'components/images';
+
+@import
+  'pages/home',
+  'pages/commodities',
+  'pages/news',
+  'pages/servicesPage',
+  'pages/contact',
+  'pages/shipingFormPage';
+@import
+  'themes/theme',
+  'themes/admin';
+  
+//   @import 'abstracts/*';
+// @import 'vendors/*';
+// @import 'base/*';
+// @import 'layout/*';
+// @import 'components/*';
+// @import 'pages/*';
+// @import 'themes/*';
+

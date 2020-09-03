@@ -1,0 +1,82 @@
+PRIORITETAI
+
+VISAS CONTENT APART SIDEBAR TURI BUTI VIENAM CONTAINER SU SELEKTORIUMI "js-container"
+VISOS NUOTRAUKOS IMG TAG'e, o ne "background: url(...)"
+Sukurti išskleistą navbarą (menu>commodities/services) visi elementai NE <a href>, o div/p/t.t. visiem elementam sukurt selektorius "js-sidebar-(pavadinimas)"
+testimonials
+services
+commodities
+FREIGHT DETAILS FORM - freight details, freight locations(location laukelis - dropdown (options)), other details, contact details (4 atskiros formos)
+DRIVERS FORM - Contact details, Vehicle details, Experience
+ADMINISTRATION FORM - Contact details, experience, cover letter.
+Visom formom padaryti "pabraukimą" (ant aktyvios formos)
+
+SELEKTORIAI
+
+FORMOS 
+ORDER FORM
+Mygtukas - js-order-form-submit
+Formų pavadinimai ↓
+Freight details - js-order-form-freight
+Freight locations - js-order-form-locations
+Other details - js-order-form-other
+Contact details - js-order-form-contacts
+!!Aktyvaus lango pabraukimas - js-order-form-underline
+Freight details ↓
+Date - js-order-form-date
+
+Freight locations ↓
+Origins - js-order-form-origin
+Destination - js-order-form-destination
+
+Contact details ↓
+Name - js-order-form-name
+Email - js-order-form-email
+contact number - js-order-form-number
+
+DRIVERS FORM
+Mygtukas - js-driver-form-next
+submit mygtukas - js-driver-form-submit
+Formų pavadinimai ↓ 
+Contact details - js-driver-form-contacts
+Vehicle details - js-driver-form-vehicle
+Experience - js-driver-form-experience
+Aktyvaus lango pabraukimas - js-driver-form-underline
+Contact details ↓
+Phone number - js-driver-form-number
+Email - js-driver-form-email
+
+ADMINISTRATION FORM
+Mygtukas - js-admin-form-next
+submit mygtukas - js-admin-form-submit
+Formų pavadinimai ↓ 
+Contact details - js-admin-form-contacts
+Experience - js-admin-form-experience
+Cover letter - js-admin-form-letter
+Aktyvaus lango pabraukimas - js-admin-form-underline
+Contact details ↓
+Phone number - js-admin-form-number
+Email - js-admin-form-email
+
+TESTIMONIALS ↓
+Aprašymas - js-testimonials-content
+Taškeliai po content - js-testimonials-carousel-(nuo 1 iki 4)
+Nuotrauka - js-testimonials-image
+
+SERVICES ↓
+Aprašymas - js-services-content
+Mygtukai ↓
+Get in touch - js-services-contact
+Read more - js-services-info
+
+COMMODITIES ↓
+"What do you want to ship?" - js-commodities-title
+"Fast moving consumer goods" - js-commodities-subtitle
+Kortelės pavadinimas - js-commodities-card-title
+Kortelės content - js-commodities-card-content
+Kortelės mygtukas - js-commodities-card-button
+Kortelės nuotrauka - js-commodities-card-image
+
+JOIN US ↓
+Drivers mygtukas - js-career-drivers-btn
+administration mygtukas - js-career-admin-btn

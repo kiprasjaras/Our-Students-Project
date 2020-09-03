@@ -1,0 +1,30 @@
+.grid-shipingForm{
+    display:grid;
+    //5
+    grid-template-columns: 14vw 35vw 8vw 35vw 8vw;
+    //8
+    grid-template-rows: 15vh 13vh 17vh 7vh 17vh 7vh 17vh 7vh;
+    &__form{
+        overflow:hidden;
+        grid-column: 2/3;
+        grid-row: 3/9;
+    }
+    &__support{
+        grid-column: 4/5;
+        grid-row: 3/4;
+        height:100%;
+        justify-self: center;
+    }
+    &__track{
+        grid-column: 4/5;
+        grid-row: 5/6;
+        height:100%;
+        justify-self: center;
+    }
+    &__plan{
+        grid-column: 4/5;
+        grid-row: 7/8;
+        height:100%;
+        justify-self: center;
+    }
+}
